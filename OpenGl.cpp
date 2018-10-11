@@ -11,7 +11,9 @@ void init(void)
 	gluOrtho2D(0.0, 200.0, 0.0, 150.0);
 }
 void drawing_shapes(){
+	// we want to draw 6 regular shapes
 	glClear(GL_COLOR_BUFFER_BIT);
+	// first regular shape is pentagon 
 	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2i(5.0, 15);
@@ -20,9 +22,10 @@ void drawing_shapes(){
 	glVertex2i(14.443 ,2.353 );
 	glVertex2i(5.127 ,5.246 );
 	glEnd();
+	
+	// second regular shape is hexagon 
 	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
-	
 	glVertex2i(35.0 ,11.34 );
 	glVertex2i(40.0 ,20.0 );
 	glVertex2i(50.0 ,20.0 );
@@ -30,6 +33,8 @@ void drawing_shapes(){
 	glVertex2i(50.0 ,2.679 );
 	glVertex2i(40.0 ,2.697 );
 	glEnd();
+	
+	// third regular shape is heptagon 
 	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2i(70.0 ,20.0 );
@@ -40,8 +45,9 @@ void drawing_shapes(){
 	glVertex2i(66.753 ,5.25 );
 	glVertex2i(64.825 ,13.407 );
 	glEnd();
-	glColor3f(1.0, 0.0, 0.0);
 	
+	// fourth regular shape is octagon 
+	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2i(10.0,50.0 );
 	glVertex2i(18.0 ,50.042 );
@@ -52,6 +58,9 @@ void drawing_shapes(){
 	glVertex2i(4.415 ,36.314 );
 	glVertex2i(4.373 ,44.314 );
 	glEnd();
+	
+	
+	// fifth regular shape is nanogon 
 	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2i(40.0 ,50.0 );
@@ -65,6 +74,7 @@ void drawing_shapes(){
 	glVertex2i(33.529 ,44.515 );
 	glEnd();
 
+	// sixth regular shape is decagon 
 	glColor3f(1.0, 0.0, 0.0);
 	glBegin(GL_POLYGON);
 	glVertex2i(75.0 , 50.0);

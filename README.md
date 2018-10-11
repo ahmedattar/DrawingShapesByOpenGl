@@ -9,6 +9,7 @@
 # What is the project about ?
 - the project consists of implementation of 6 regular shapes ( pentagon, hexagon, heptagon, octagon, nanogon, decagon)
 - the project is an implememtation of basic [OpenGl](https://www.opengl.org/) functions, it is regular for beginners to read and understand it
+- to get accurate implementation of the regular shapes use this [website](https://www.math10.com/en/geometry/geogebra/fullscreen.html) for that.
 
 
 
